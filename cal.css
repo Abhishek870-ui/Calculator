@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background: linear-gradient(to right,#16222A,#3A6073);
+}
+.cal{
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 50% 10%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    background: linear-gradient(to left,#C04848,#480048);
+    
+}
+.cal form{
+    padding: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    color: blanchedalmond;
+ 
+
+}
+.cal form input{
+    width: 50%;
+    padding: 3%;
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid blanchedalmond;
+    color: blanchedalmond;
+    
+}
+.cal button{
+    width: 30%;
+    border-radius: 45%;
+    margin: 2%;
+    background:linear-gradient(to left,#f857a6,#ff5858);
+    border: 1px solid blanchedalmond;
+    font-size: 20px;
+    padding: 3%;
+    font-weight: bold;
+    color: blanchedalmond;
+    
+}
