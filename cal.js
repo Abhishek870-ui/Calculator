@@ -2,8 +2,8 @@ function add()
 {
   
   var numOne, numTwo, sum;
-  numOne = parseInt(document.getElementById("first").value);
-  numTwo = parseInt(document.getElementById("second").value);
+  numOne = parseFloat(document.getElementById("first").value);
+  numTwo = parseFloat(document.getElementById("second").value);
   sum = numOne + numTwo;
   document.getElementById("result").value = sum;
   
@@ -12,8 +12,8 @@ function add()
 function sub()
 {
   var numOne, numTwo, sum;
-  numOne = parseInt(document.getElementById("first").value);
-  numTwo = parseInt(document.getElementById("second").value);
+  numOne = parseFloat(document.getElementById("first").value);
+  numTwo = parseFloat(document.getElementById("second").value);
   sum = numOne - numTwo;
   document.getElementById("result").value = sum;
 }
@@ -21,8 +21,8 @@ function sub()
 function mul()
 {
   var numOne, numTwo, sum;
-  numOne = parseInt(document.getElementById("first").value);
-  numTwo = parseInt(document.getElementById("second").value);
+  numOne = parseFloat(document.getElementById("first").value);
+  numTwo = parseFloat(document.getElementById("second").value);
   sum = numOne * numTwo;
   document.getElementById("result").value = sum;
 }
@@ -30,8 +30,8 @@ function mul()
 function div()
 {
   var numOne, numTwo, sum;
-  numOne = parseInt(document.getElementById("first").value);
-  numTwo = parseInt(document.getElementById("second").value);
+  numOne = parseFloat(document.getElementById("first").value);
+  numTwo = parseFloat(document.getElementById("second").value);
   sum = numOne / numTwo;
   document.getElementById("result").value = sum;
 }
